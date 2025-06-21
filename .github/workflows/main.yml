@@ -19,7 +19,6 @@ jobs:
 
     - name: Build with Gradle
       run: |
-        cd BarcodeChecker
         chmod +x ./gradlew
         ./gradlew assembleDebug
 
